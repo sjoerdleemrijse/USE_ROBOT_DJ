@@ -1,0 +1,34 @@
+{
+  "name": "spotify-user-play-history",
+  "version": "1.0.0",
+  "description": "A nodejs script to periodically download your [recently played spotify tracks]((https://developer.spotify.com/documentation/web-api/reference/player/get-recently-played/)).",
+  "main": "run.js",
+  "scripts": {
+    "server": "http-server ./server -p 8888 -o",
+    "get-recent-tracks": "node run.js",
+    "list-played-tracks": "node scripts/show-history.js"
+  },
+  "author": "Dominick Gendill <https://www.dgendill.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "btoa": "^1.2.1",
+    "http-server": "^0.11.1",
+    "lodash": "^4.17.14",
+    "object-assign-deep": "^0.4.0",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": ">=6.10"
+  },
+  "engineStrict": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgendill/spotify-play-history.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/dgendill/spotify-play-history/issues"
+  },
+  "homepage": "https://github.com/dgendill/spotify-play-history#readme"
+}
