@@ -1,0 +1,3 @@
+The first row represents the time points, the second row the desired excitement ratings (So at 10 minutes an excitement rating of 0.6)
+0	5	10	20	25	30
+0.7	0.7	0.6	0.8	0.7	1
